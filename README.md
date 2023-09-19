@@ -16,12 +16,12 @@ of the models.<br>
 ## Data
 Property Services Regulatory Authority (PSRA) - The Residential Property Price Register (RPPR)<br>
 Features:<br>
-- Date of Sale (dd/mm/yyyy)    object
-- Address                      object
-- Postal Code                  object
-- County                       object
-- Price (€)                    object
-- Not Full Market Price        object
-- VAT Exclusive                object
-- Description of Property      object
-- Property Size Description    object<br>
+- Date of Sale (dd/mm/yyyy):    object
+- Address:                      object
+- Postal Code:                  object
+- County:                       object
+- Price (€):                    object
+- Not Full Market Price:        object
+- VAT Exclusive:                object
+- Description of Property:      object
+- Property Size Description:    object<br>
