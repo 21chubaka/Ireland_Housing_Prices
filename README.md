@@ -1,6 +1,11 @@
 # Ireland_Housing_Prices
 Analysis of Irish Housing Prices
 
+<figure>
+    <img src='./media/derelict_house.jpg'>
+    <figcaption>Geograph - https://www.geograph.ie/photo/3116632</figcaption>
+</figure>
+
 ## Introduction
 This project will use data from The Residential Property Price Register (RPPR) to create
 various Machine Learning models to predict property prices in Ireland, then compare the performances
