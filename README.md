@@ -25,3 +25,16 @@ Features:<br>
 - VAT Exclusive:                object
 - Description of Property:      object
 - Property Size Description:    object<br>
+Income data here
+
+## Exploratory Analysis
+
+## Data Cleaning
+
+## Models
+
+## Performance
+
+## Conclusion/Findings
+
+## References
