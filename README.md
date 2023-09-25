@@ -41,6 +41,8 @@ Features:<br>
 ## Data Cleaning
 Intial data exploration was carried out to better understand the RPPR data and identify any data cleaning that needed to be carried out before
 modeling.<br>
+
+### 'Price (€)' feature
 The 'Price (€)' feature contained outliers that were signficantly skewing the data, especially upper bound outliers.  The impact of the outliers
 can be observed from the boxplot below.
 <figure>
