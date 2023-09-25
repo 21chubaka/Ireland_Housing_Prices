@@ -39,6 +39,9 @@ Features:<br>
 - Income_Per_Person_euro:              float64
 
 ## Data Cleaning
+<figure>
+    <img src='/media/rppr_price_boxplot.png'>
+</figure>
 
 ## Exploratory Analysis
 
