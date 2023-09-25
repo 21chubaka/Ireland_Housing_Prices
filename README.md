@@ -38,9 +38,9 @@ Features:<br>
 - Income_Indices:                      float64
 - Income_Per_Person_euro:              float64
 
-## Exploratory Analysis
-
 ## Data Cleaning
+
+## Exploratory Analysis
 
 ## Models
 
