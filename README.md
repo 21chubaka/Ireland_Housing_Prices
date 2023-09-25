@@ -49,6 +49,12 @@ can be observed from the boxplot below.
     <img src='/media/rppr_price_boxplot.png'>
 </figure>
 
+### 'Postal Code' feature
+
+### 'Description of Property' feature
+
+### 'Property Size Description' feature
+
 ### Data Cleaning Plan
 <figure>
     <img src='/media/data_cleaning_plan.png'>
