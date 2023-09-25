@@ -39,9 +39,12 @@ Features:<br>
 - Income_Per_Person_euro:              float64
 
 ## Data Cleaning
+Intial data exploration was carried out to better understand the RPPR data and identify any data cleaning that needed to be carried out before
+modeling.
 <figure>
     <img src='/media/rppr_price_boxplot.png'>
 </figure>
+The pricing feature
 
 ### Data Cleaning Plan
 <figure>
