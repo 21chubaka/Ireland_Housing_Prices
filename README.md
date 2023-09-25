@@ -30,7 +30,12 @@ Features:<br>
 - VAT Exclusive:                object
 - Description of Property:      object
 - Property Size Description:    object<br>
-Income data here
+
+Central Statistics Office provided by the government of Ireland - Income Per Person and Income Indices by County by Year for 2010-2019
+- Year                                  int64
+- County                              string
+- Income_Indices                      float64
+- Income_Per_Person_euro              float64
 
 ## Exploratory Analysis
 
