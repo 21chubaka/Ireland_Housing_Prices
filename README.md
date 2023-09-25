@@ -43,6 +43,10 @@ Features:<br>
     <img src='/media/rppr_price_boxplot.png'>
 </figure>
 
+<figure>
+    <img src='/media/data_cleaning_plan.png'>
+</figure>
+
 ## Exploratory Analysis
 
 ## Models
