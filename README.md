@@ -31,7 +31,7 @@ Features:<br>
 - Description of Property:      object
 - Property Size Description:    object<br>
 
-Central Statistics Office provided by the government of Ireland - Income Per Person and Income Indices by County by Year for 2010-2019
+Central Statistics Office provided by the government of Ireland - Income Per Person and Income Indices by County by Year for 2010-2019<br>
 Features:<br>
 - Year:                                  int64
 - County:                              string
