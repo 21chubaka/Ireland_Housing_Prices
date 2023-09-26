@@ -41,6 +41,9 @@ Features:<br>
 ## Data Cleaning
 Intial data exploration was carried out to better understand the RPPR data and identify any data cleaning that needed to be carried out before
 modeling.<br>
+### Initial Descriptive Statistics on Continuous Features
+
+### Initial Descriptive Statistics on Categorical Features
 
 Some integrity checks on the dataset were:
 - Check for Null Values by Column
