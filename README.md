@@ -41,6 +41,16 @@ Features:<br>
 ## Data Cleaning
 Intial data exploration was carried out to better understand the RPPR data and identify any data cleaning that needed to be carried out before
 modeling.<br>
+Some integrity checks on the dataset were:
+- Check for Null Values by Column
+- Check for Negative Price Values
+- Check for Future Dates
+- Check for Month Values Greater than 12 or Less than 1
+- Check for Day Values Greater than 31 or Less than 1
+- Check for Year Values Older than 2010
+- Check for 'Second-hand Dwellings' with 'Yes' VAT Exclusive
+- Check for Outliers by Column
+- Etc.
 
 ### 'Price (€)' feature
 The 'Price (€)' feature contained outliers that were signficantly skewing the data, especially upper bound outliers.  The impact of the outliers
@@ -50,10 +60,12 @@ can be observed from the boxplot below.
 </figure>
 
 ### 'Postal Code' feature
+The 'Postal Code' feature had 8,086 rows with NULL values.
 
 ### 'Description of Property' feature
 
 ### 'Property Size Description' feature
+The 'Property Size Description' feature had 8,984 rows with NULL values.
 
 ### Data Cleaning Plan
 <figure>
