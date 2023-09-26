@@ -60,7 +60,8 @@ can be observed from the boxplot below.
 </figure>
 
 ### 'Postal Code' feature
-The 'Postal Code' feature had 8,086 rows with NULL values.
+The 'Postal Code' feature had 8,086 rows with NULL values and some with missing values.  It also had some Dublin Postal Codes labeled as
+'Baile Atha Cliath', which is Dublin in Irish.
 
 ### 'Description of Property' feature
 
@@ -71,6 +72,7 @@ The 'Property Size Description' feature had 8,984 rows with NULL values.
 <figure>
     <img src='/media/data_cleaning_plan.png'>
 </figure>
+For the purposes of this project, I will translate these to Dublin for the continuity of data.
 
 ## Exploratory Analysis
 
