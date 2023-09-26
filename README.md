@@ -41,8 +41,7 @@ Features:<br>
 ## Data Cleaning
 Intial data exploration was carried out to better understand the RPPR data and identify any data cleaning that needed to be carried out before
 modeling.<br>
-In addition there were some changes to feature names, exculsions of symbols in the price feature, and updates to data types to facilitate better
-analysis.<br>
+
 Some integrity checks on the dataset were:
 - Check for Null Values by Column
 - Check for Negative Price Values
@@ -77,6 +76,8 @@ The 'Property Size Description' feature had 8,984 rows with NULL values.  This f
     <img src='/media/data_cleaning_plan.png'>
 </figure>
 For the purposes of this project, I will translate these to Dublin for the continuity of data.
+In addition there were some changes to feature names, exculsions of symbols in the price feature, and updates to data types to facilitate better
+analysis.<br>
 
 ## Exploratory Analysis
 
