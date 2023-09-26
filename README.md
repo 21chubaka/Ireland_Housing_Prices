@@ -47,6 +47,9 @@ modeling.<br>
 </figure>
 
 ### Initial Descriptive Statistics on Categorical Features
+<figure>
+    <img src='/media/descrip_stats_cat_feat.png'>
+</figure>
 
 Some integrity checks on the dataset were:
 - Check for Null Values by Column
