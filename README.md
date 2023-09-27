@@ -19,7 +19,7 @@ of the models.<br>
 - Sklearn<br>
 
 ## Data
-Property Services Regulatory Authority (PSRA) - The Residential Property Price Register (RPPR) for 2010-2021<br>
+Property Services Regulatory Authority (PSRA) - The Residential Property Price Register (RPPR) for 2010-2022<br>
 Features:<br>
 - Date of Sale (dd/mm/yyyy):    object
 - Address:                      object
@@ -31,7 +31,7 @@ Features:<br>
 - Description of Property:      object
 - Property Size Description:    object<br>
 
-Central Statistics Office provided by the government of Ireland - Income Per Person and Income Indices by County by Year for 2010-2019<br>
+Central Statistics Office provided by the government of Ireland - Income Per Person and Income Indices by County by Year for 2010-2022<br>
 Features:<br>
 - Year:                                  int64
 - County:                              string
