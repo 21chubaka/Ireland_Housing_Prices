@@ -89,7 +89,11 @@ For some of the issues it was decided to leave them as is, due to the small impa
 after researching the lower bound outliers of the property prices, it was found that those prices and properties were normal (non-developer) 
 properties that an individual would purchase.<br>
 As an Irish Language speaker and supporter it pained me, but for the purposes of this project any Irish labels were translated for the continuity of data.<br>
-It should be noted, that in addition to the data cleaning plan, there were some initial changes to feature names, exculsions of symbols in the price feature, and updates to data types to facilitate better data transformations and analysis.<br>
+It should be noted, that in addition to the data cleaning plan, there were some initial changes to feature names, exculsions of symbols in the price feature, and updates to data types to facilitate better data transformations and analysis.
+
+### Income by County Dataset - Central Statistics Office
+The final step of data cleaning was combining the RPPR and Income by County datasets.  This was completed by using a left join on 'Year' and 
+'County'.
 
 ## Exploratory Analysis
 
