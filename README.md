@@ -85,7 +85,9 @@ The 'Property Size Description' feature had 8,984 rows with NULL values.  This f
     <img src='/media/data_cleaning_plan.png'>
 </figure>
 The above image layouts out the data issues identified with the RPPR dataset and the handling strategies employed to clean the dataset.
-For some of the issues it was decided to leave them as is, due to the small impact or the goal of keeping data intact.<br>
+For some of the issues it was decided to leave them as is, due to the small impact or the goal of keeping data intact. For example, 
+after researching the lower bound outliers of the property prices, it was found that those prices and properties were normal (non-developer) 
+properties that an individual would purchase.<br>
 As an Irish Language speaker and supporter it pained me, but for the purposes of this project any Irish labels were translated for the continuity of data.<br>
 It should be noted, that in addition to the data cleaning plan, there were some initial changes to feature names, exculsions of symbols in the price feature, and updates to data types to facilitate better data transformations and analysis.<br>
 
