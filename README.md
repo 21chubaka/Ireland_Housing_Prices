@@ -111,6 +111,7 @@ The final step of data cleaning was combining the RPPR and Income by County data
 <figure>
     <img src='/media/cont_corr_matrix.png'>
 </figure>
+
 Some observations from the matrix:
 - 'Income_Indices' & 'Income_Per_Person_euro' positively correlated to price.
 - 'Income_Indices' are based off of 'Income_Per_Person_euro' and 'Income_Per_Person_euro' is better correlated, so I will focus on 'Income_Per_Person_euro' to start.
