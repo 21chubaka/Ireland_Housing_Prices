@@ -101,11 +101,16 @@ The final step of data cleaning was combining the RPPR and Income by County data
 <figure>
     <img src='/media/final_descrip_stats_cont_feat.png'>
 </figure>
+
+#### Correlation Statistics on Continuous Features
 <figure>
     <img src='/media/cont_corr.png'>
 </figure>
 
 #### Correlation Matrix on Continuous Features
+<figure>
+    <img src='/media/cont_corr_matrix.png'>
+</figure>
 
 ## Models
 
