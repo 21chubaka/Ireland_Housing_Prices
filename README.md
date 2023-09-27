@@ -95,7 +95,12 @@ It should be noted, that in addition to the data cleaning plan, there were some 
 The final step of data cleaning was combining the RPPR and Income by County datasets.  This was completed by using a left join on 'Year' and 
 'County'.
 
-## Exploratory Analysis
+## Exploratory Analysis - RPPR & Income Data
+### Continuous Features
+#### Descriptive Statistics on Continuous Features
+<figure>
+    <img src='/media/final_descrip_stats_cont_feat.png'>
+</figure>
 
 ## Models
 
