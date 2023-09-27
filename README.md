@@ -145,6 +145,14 @@ Some observations:
 - 'County' having 26 makes sense due to the 26 counties in the Republic of Ireland.
 - 'Property_Size_Description' has an extremely high amount of unknown values and will most likely not be included in the models at this time.
 
+#### Postal Code vs. Price
+<figure>
+    <img src='/media/postal_price_boxplot.png'>
+</figure>
+
+First, it does show Dublin tends to use postal codes. Also, it does show the price differences with a high level of variation by Dublin postal code.<br>
+From the box plot of postal code vs price, I can dig deeper into Dublin alone, and its specified areas. The highest median prices are Dublin 14, 4, 6, 6w, and 16 – all between 400,000 to 600,000 euro. I noted that these are all even numbered postal codes and therefore are South of the River Liffey. Dublin 6 has the widest interquartile range. The lowest median price was Dublin 10, followed closely by Dublin 11 and Dublin 22. The specific area within Dublin does appear to play an important factor in price.
+
 #### County vs. Price
 <figure>
     <img src='/media/county_price_boxplot.png'>
