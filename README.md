@@ -134,6 +134,12 @@ After doing some analysis, I have decided to include Year as a feature to start.
 This is an easy feature to choose to include in my models. It was the stronest correlated feature.
 Also as mentioned above, while Income Indices is another well correlated feature I will not include it at this time because it is value that is based off of Income per Person.<br>
 
+### Categorical Features
+#### Descriptive Statistics on Categorical Features
+<figure>
+    <img src=''>
+</figure>
+
 ## Models
 
 ## Performance
