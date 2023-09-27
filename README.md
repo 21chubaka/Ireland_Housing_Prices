@@ -116,6 +116,13 @@ Some observations from the matrix:
 - 'Income_Indices' & 'Income_Per_Person_euro' positively correlated to price.
 - 'Income_Indices' are based off of 'Income_Per_Person_euro' and 'Income_Per_Person_euro' is better correlated, so I will focus on 'Income_Per_Person_euro' to start.
 
+#### Income Per Person vs. Price
+<figure>
+    <img src='/media/income_price_scat.png'>
+</figure>
+
+#### Year vs. Price
+
 ## Models
 
 ## Performance
