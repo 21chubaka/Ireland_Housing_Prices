@@ -137,8 +137,13 @@ Also as mentioned above, while Income Indices is another well correlated feature
 ### Categorical Features
 #### Descriptive Statistics on Categorical Features
 <figure>
-    <img src=''>
+    <img src='/media/final_descrip_stats_cat_feat.png'>
 </figure>
+
+Some observations:
+- 'Postal_Code' has a high amount of unknown values due to Dublin being the only county that tends to use postal code in that manner.
+- 'County' having 26 makes sense due to the 26 counties in the Republic of Ireland.
+- 'Property_Size_Description' has an extremely high amount of unknown values and will most likely not be included in the models at this time.
 
 ## Models
 
