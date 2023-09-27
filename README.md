@@ -126,6 +126,14 @@ Some observations from the matrix:
     <img src='/media/year_price_boxplot.png'>
 </figure>
 
+#### Continuous Feature Conclusions
+<b>Year</b>:<br>
+After doing some analysis, I have decided to include Year as a feature to start. There was a correlation to Price (albeit on the lower end), but it did offer information on how price changed over time (down 2011 and up after 2013). The recession may have negatively affect the correlation number.<br>
+
+<b>Income Per Person</b>:<br>
+This is an easy feature to choose to include in my models. It was the stronest correlated feature.
+Also as mentioned above, while Income Indices is another well correlated feature I will not include it at this time because it is value that is based off of Income per Person.<br>
+
 ## Models
 
 ## Performance
