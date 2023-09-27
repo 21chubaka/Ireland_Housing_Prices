@@ -122,6 +122,9 @@ Some observations from the matrix:
 </figure>
 
 #### Year vs. Price
+<figure>
+    <img src='/media/year_price_boxplot.png'>
+</figure>
 
 ## Models
 
