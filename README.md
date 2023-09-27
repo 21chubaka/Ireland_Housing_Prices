@@ -145,6 +145,14 @@ Some observations:
 - 'County' having 26 makes sense due to the 26 counties in the Republic of Ireland.
 - 'Property_Size_Description' has an extremely high amount of unknown values and will most likely not be included in the models at this time.
 
+#### County vs. Price
+<figure>
+    <img src='/media/county_price_boxplot.png'>
+</figure>
+
+From the box plot of county vs price, I can easily tell Dublin, the Wicklow, then Kildare, then Meath have the highest median prices – all about 200,000 Euro. Dublin and Wicklow counties have the widest spread and therefore variation as well, both for the interquartile range as well as whiskers. There are several counties where the 75th percentile does not even reach 200,000, such as Carlow, Cavan, Donegal, Laois, Leitrim, Longford, Mayo, Monaghan, Offaly, Roscommon, Sligo, and Tipperary. Leitrim, Longford, and Mayo have the lowest median prices. Leitrim also has the narrowest interquartile range as well as whiskers. It could be useful to explore single counties more, such as Dublin by its postal codes, as well as numerical data specific to each county, such as population size or income levels.<br>
+I find this quite informative of the price variations by county, making it a decent feature to include in the models.
+
 ## Models
 
 ## Performance
