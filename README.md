@@ -169,9 +169,15 @@ I am going to include Postal Code because it is a strong representive of Dublin,
 I am going to include County because it is the most complete feature. The county is captured for every sale. Moreover, County also holds spacial/geographical information accross Ireland.
 
 ## Models
-For this project, I want to compare the performances of predicting house prices of Multiple Linear Regression, Decision Tree, and Random Forest models.
+For this project, I want to compare the performances of predicting house prices of Multiple Linear Regression, Decision Tree, and Random Forest models.<br>
+The dataset was randomly shuffled and split using the 70/30 train/test split.  The shuffled complete dataset will be used for 5-fold Cross-Validation.
 
 ### Metrics
+The performance of the models will be reviewed on:
+- Training dataset
+- Test dataset
+- Complete shuffled dataset
+
 #### The Mean Absolute Error (MAE)
 
 #### The Mean Squared Error (MSE)
