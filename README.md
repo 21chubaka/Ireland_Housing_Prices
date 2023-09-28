@@ -193,6 +193,8 @@ This is typically in the range of 0 to 1 and is calculated by the sum of all squ
 #### 5-fold Cross-Validation
 Used to gauge the ablity of a model to predict on new data.  The dataset is split into k number of folds (5 in this project) and its performance is tested on each fold.  Then the scores are averaged to achieve its cross-validated score.
 
+## Performance
+
 ### Multiple Linear Regression
 <table>
     <tr>
@@ -294,8 +296,6 @@ Used to gauge the ablity of a model to predict on new data.  The dataset is spli
         <td>0.2195</td>
     </tr>
 </table>
-
-## Performance
 
 ## Conclusion/Findings
 
