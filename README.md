@@ -207,9 +207,24 @@ Used to gauge the ablity of a model to predict on new data.  The dataset is spli
         <td>122111.0887</td>
         <td>118973.7094</td>
     </tr>
-    <tr></tr>
-    <tr></tr>
-    <tr></tr>
+    <tr>
+        <td>MSE</td>
+        <td>117629.1663</td>
+        <td>122111.0887</td>
+        <td>118973.7094</td>
+    </tr>
+    <tr>
+        <td>RMSE</td>
+        <td>117629.1663</td>
+        <td>122111.0887</td>
+        <td>118973.7094</td>
+    </tr>
+    <tr>
+        <td>R2</td>
+        <td>117629.1663</td>
+        <td>122111.0887</td>
+        <td>118973.7094</td>
+    </tr>
 </table>
 
 ### Decision Tree
