@@ -228,6 +228,38 @@ Used to gauge the ablity of a model to predict on new data.  The dataset is spli
 </table>
 
 ### Decision Tree
+<table>
+    <tr>
+        <th>Metric</th>
+        <th>Training</th>
+        <th>Test</th>
+        <th>5-Fold Cross-Validation</th>
+    </tr>
+    <tr>
+        <td>MAE</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>MSE</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>RMSE</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>R2</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+</table>
 
 ### Random Forest
 
