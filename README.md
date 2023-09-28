@@ -190,6 +190,9 @@ This error is the difference between the actual price and predicted per the mode
 #### The R-squared Score (R2)
 This is typically in the range of 0 to 1 and is calculated by the sum of all squared errors, divided by the total sum of squares (predictions), subtracted from 1.  R-squared is not dependent on original units (property price), and explains how much better the model is over predicting simply the average of the past prices.<br>
 
+#### 5-fold Cross-Validation
+Used to gauge the ablity of a model to predict on new data.  The dataset is split into k number of folds (5 in this project) and its performance is tested on each fold.  Then the scores are averaged to achieve its cross-validated score.
+
 ### Multiple Linear Regression
 
 ### Decision Tree
