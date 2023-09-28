@@ -209,19 +209,19 @@ Used to gauge the ablity of a model to predict on new data.  The dataset is spli
     </tr>
     <tr>
         <td>MSE</td>
-        <td>117629.1663</td>
+        <td>47315291772.1562</td>
         <td>122111.0887</td>
         <td>118973.7094</td>
     </tr>
     <tr>
         <td>RMSE</td>
-        <td>117629.1663</td>
+        <td>217520.7847</td>
         <td>122111.0887</td>
         <td>118973.7094</td>
     </tr>
     <tr>
         <td>R2</td>
-        <td>117629.1663</td>
+        <td>0.1888</td>
         <td>122111.0887</td>
         <td>118973.7094</td>
     </tr>
