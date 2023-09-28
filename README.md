@@ -179,10 +179,12 @@ The performance of the models will be reviewed on:
 - Complete shuffled dataset
 
 #### The Mean Absolute Error (MAE)
+The error of each row is computed, then absolute value taken, and finally averaged across all rows.<br>
 
 #### The Mean Squared Error (MSE)
 
 #### The Root Mean Squared Error (RMSE)
+This error is the difference between the actual price and predicted per the model.  This is calculated for each row and then squared.  In the end, the squared error is then averaged, and finally square root is taken.  This is interpreted in the units of the variable being predicted, in this case Property Price.  The lower the RMSE, the better the model.<br>
 
 #### The R-squared Score (R2)
 
