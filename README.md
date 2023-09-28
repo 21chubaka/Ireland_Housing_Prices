@@ -170,6 +170,12 @@ I am going to include County because it is the most complete feature. The county
 
 ## Models
 
+### Multiple Linear Regression
+
+### Decision Tree
+
+### Random Forest
+
 ## Performance
 
 ## Conclusion/Findings
