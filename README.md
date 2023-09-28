@@ -222,7 +222,7 @@ Used to gauge the ablity of a model to predict on new data.  The dataset is spli
     <tr>
         <td>R2</td>
         <td>0.1888</td>
-        <td>0</td>
+        <td>0.1711</td>
         <td>0</td>
     </tr>
 </table>
