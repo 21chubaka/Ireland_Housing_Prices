@@ -170,7 +170,14 @@ I am going to include County because it is the most complete feature. The county
 
 ## Models
 For this project, I want to compare the performances of predicting house prices of Multiple Linear Regression, Decision Tree, and Random Forest models.<br>
-The dataset was randomly shuffled and split using the 70/30 train/test split.  The shuffled complete dataset will be used for 5-fold Cross-Validation.
+The cleaned dataset of RPPR/Income was used and the Postal Code and County features were categorically encoded, as they showed promised from the exploratory analysis.  Then the dataset was randomly shuffled and split using the 70/30 train/test split.  The shuffled complete dataset will be used for 5-fold Cross-Validation.
+
+### Features
+The features used for the models:
+- Year
+- Income Per Person
+- Postal Code (categorically encoded)
+- County (categorically encoded)
 
 ## Performance
 
