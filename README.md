@@ -194,6 +194,23 @@ This is typically in the range of 0 to 1 and is calculated by the sum of all squ
 Used to gauge the ablity of a model to predict on new data.  The dataset is split into k number of folds (5 in this project) and its performance is tested on each fold.  Then the scores are averaged to achieve its cross-validated score.
 
 ### Multiple Linear Regression
+<table>
+    <tr>
+        <th>Metric</th>
+        <th>Training</th>
+        <th>Test</th>
+        <th>5-Fold Cross-Validation</th>
+    </tr>
+    <tr>
+        <td>MAE</td>
+        <td>117629.1663</td>
+        <td>122111.0887</td>
+        <td>118973.7094</td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr></tr>
+</table>
 
 ### Decision Tree
 
