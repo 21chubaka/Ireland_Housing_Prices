@@ -172,6 +172,8 @@ I am going to include County because it is the most complete feature. The county
 For this project, I want to compare the performances of predicting house prices of Multiple Linear Regression, Decision Tree, and Random Forest models.<br>
 The dataset was randomly shuffled and split using the 70/30 train/test split.  The shuffled complete dataset will be used for 5-fold Cross-Validation.
 
+## Performance
+
 ### Metrics
 The performance of the models will be reviewed on:
 - Training dataset
@@ -192,8 +194,6 @@ This is typically in the range of 0 to 1 and is calculated by the sum of all squ
 
 #### 5-fold Cross-Validation
 Used to gauge the ablity of a model to predict on new data.  The dataset is split into k number of folds (5 in this project) and its performance is tested on each fold.  Then the scores are averaged to achieve its cross-validated score.
-
-## Performance
 
 ### Multiple Linear Regression
 <table>
