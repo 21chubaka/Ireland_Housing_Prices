@@ -251,27 +251,27 @@ Used to gauge the ablity of a model to predict on new data.  The dataset is spli
     </tr>
     <tr>
         <td>MAE</td>
-        <td>108540.7352</td>
-        <td>120485.1271</td>
-        <td>116307.5895</td>
+        <td>103903.8891</td>
+        <td>108481.6654</td>
+        <td>108599.5855</td>
     </tr>
     <tr>
         <td>MSE</td>
-        <td>40003781692.9543</td>
-        <td>58438504580.1186</td>
-        <td>51321658145.0277</td>
+        <td>23786223710.6937</td>
+        <td>26617011526.2283</td>
+        <td>26294193842.1188</td>
     </tr>
     <tr>
         <td>RMSE</td>
-        <td>200009.4540</td>
-        <td>241740.5729</td>
-        <td>225460.8559</td>
+        <td>154227.8305</td>
+        <td>163147.2081</td>
+        <td>162108.9326</td>
     </tr>
     <tr>
         <td>R2</td>
-        <td>0.3142</td>
-        <td>0.2070</td>
-        <td>0.1843</td>
+        <td>0.3745</td>
+        <td>0.3466</td>
+        <td>0.3218</td>
     </tr>
 </table>
 
