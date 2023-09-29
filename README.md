@@ -82,7 +82,7 @@ The 'Property Size Description' feature had 8,984 rows with NULL values.  This f
 
 ### Data Cleaning Plan
 <figure>
-    <img src='/media/data_cleaning_plan.png'>
+    <img src='/media/data_cleaning_plan1.png'>
 </figure>
 The above image layouts out the data issues identified with the RPPR dataset and the handling strategies employed to clean the dataset.
 For some of the issues it was decided to leave them as is, due to the small impact or the goal of keeping data intact. For example, 
