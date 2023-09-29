@@ -104,17 +104,17 @@ The final step of data cleaning was combining the RPPR and Income by County data
 ### Continuous Features
 #### Descriptive Statistics on Continuous Features
 <figure>
-    <img src='/media/final_descrip_stats_cont_feat.png'>
+    <img src=''>
 </figure>
 
 #### Correlation Statistics on Continuous Features
 <figure>
-    <img src='/media/cont_corr.png'>
+    <img src=''>
 </figure>
 
 #### Correlation Matrix on Continuous Features
 <figure>
-    <img src='/media/cont_corr_matrix.png'>
+    <img src=''>
 </figure>
 
 Some observations from the matrix:
