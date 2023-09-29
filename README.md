@@ -96,7 +96,10 @@ The final step of data cleaning was combining the RPPR and Income by County data
 'County'.
 
 ## Exploratory Analysis - RPPR & Income Data
-## Target Feature - Price
+### Target Feature - Price
+<figure>
+    <img src='/media/price_hist.png'>
+</figure>
 
 ### Continuous Features
 #### Descriptive Statistics on Continuous Features
