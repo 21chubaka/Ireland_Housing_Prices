@@ -217,21 +217,21 @@ Used to gauge the ablity of a model to predict on new data.  The dataset is spli
     </tr>
     <tr>
         <td>MAE</td>
-        <td>112672.3749</td>
-        <td>115194.7391</td>
-        <td>113429.4108</td>
+        <td>112672.37</td>
+        <td>115194.74</td>
+        <td>113429.41</td>
     </tr>
     <tr>
         <td>MSE</td>
-        <td>27799942517.6181</td>
-        <td>30464257708.5413</td>
-        <td>28599488564.3349</td>
+        <td>27799942517.62</td>
+        <td>30464257708.54</td>
+        <td>28599488564.33</td>
     </tr>
     <tr>
         <td>RMSE</td>
-        <td>166733.1476</td>
-        <td>174540.1321</td>
-        <td>169041.3044</td>
+        <td>166733.15</td>
+        <td>174540.13</td>
+        <td>169041.30</td>
     </tr>
     <tr>
         <td>R2</td>
@@ -251,21 +251,21 @@ Used to gauge the ablity of a model to predict on new data.  The dataset is spli
     </tr>
     <tr>
         <td>MAE</td>
-        <td>103903.8891</td>
-        <td>108481.6654</td>
-        <td>108599.5855</td>
+        <td>103903.89</td>
+        <td>108481.67</td>
+        <td>108599.59</td>
     </tr>
     <tr>
         <td>MSE</td>
-        <td>23786223710.6937</td>
-        <td>26617011526.2283</td>
-        <td>26294193842.1188</td>
+        <td>23786223710.69</td>
+        <td>26617011526.23</td>
+        <td>26294193842.12</td>
     </tr>
     <tr>
         <td>RMSE</td>
-        <td>154227.8305</td>
-        <td>163147.2081</td>
-        <td>162108.9326</td>
+        <td>154227.83</td>
+        <td>163147.21</td>
+        <td>162108.93</td>
     </tr>
     <tr>
         <td>R2</td>
@@ -285,21 +285,21 @@ Used to gauge the ablity of a model to predict on new data.  The dataset is spli
     </tr>
     <tr>
         <td>MAE</td>
-        <td>99622.1872</td>
-        <td>108954.8847</td>
-        <td>107692.9652</td>
+        <td>99622.19</td>
+        <td>108954.88</td>
+        <td>107692.97</td>
     </tr>
     <tr>
         <td>MSE</td>
-        <td>22232938627.5856</td>
-        <td>27216804263.4020</td>
-        <td>25932614948.2562</td>
+        <td>22232938627.59</td>
+        <td>27216804263.40</td>
+        <td>25932614948.26</td>
     </tr>
     <tr>
         <td>RMSE</td>
-        <td>149107.1381</td>
-        <td>164975.1626</td>
-        <td>160991.2678</td>
+        <td>149107.14</td>
+        <td>164975.16</td>
+        <td>160991.27</td>
     </tr>
     <tr>
         <td>R2</td>
