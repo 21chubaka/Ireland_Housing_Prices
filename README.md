@@ -123,12 +123,12 @@ Some observations from the matrix:
 
 #### Income Per Person vs. Price
 <figure>
-    <img src='/media/income_price_scat.png'>
+    <img src=''>
 </figure>
 
 #### Year vs. Price
 <figure>
-    <img src='/media/year_price_boxplot.png'>
+    <img src=''>
 </figure>
 
 #### Continuous Feature Conclusions
