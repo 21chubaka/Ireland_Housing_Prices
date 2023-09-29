@@ -142,7 +142,7 @@ Also as mentioned above, while Income Indices is another well correlated feature
 ### Categorical Features
 #### Descriptive Statistics on Categorical Features
 <figure>
-    <img src='/media/final_descrip_stats_cat_feat.png'>
+    <img src=''>
 </figure>
 
 Some observations:
@@ -152,7 +152,7 @@ Some observations:
 
 #### Postal Code vs. Price
 <figure>
-    <img src='/media/postal_price_boxplot.png'>
+    <img src=''>
 </figure>
 
 First, it does show Dublin tends to use postal codes. Also, it does show the price differences with a high level of variation by Dublin postal code.<br>
@@ -160,7 +160,7 @@ From the box plot of postal code vs price, I can dig deeper into Dublin alone, a
 
 #### County vs. Price
 <figure>
-    <img src='/media/county_price_boxplot.png'>
+    <img src=''>
 </figure>
 
 From the box plot of county vs price, I can easily tell Dublin, the Wicklow, then Kildare, then Meath have the highest median prices – all about 200,000 Euro. Dublin and Wicklow counties have the widest spread and therefore variation as well, both for the interquartile range as well as whiskers. There are several counties where the 75th percentile does not even reach 200,000, such as Carlow, Cavan, Donegal, Laois, Leitrim, Longford, Mayo, Monaghan, Offaly, Roscommon, Sligo, and Tipperary. Leitrim, Longford, and Mayo have the lowest median prices. Leitrim also has the narrowest interquartile range as well as whiskers. It could be useful to explore single counties more, such as Dublin by its postal codes, as well as numerical data specific to each county, such as population size or income levels.<br>
