@@ -356,7 +356,38 @@ As expected, the test data did not perform as well as the training data. There w
 Random Forest's CV R-squared score of 0.3310 is the best so far compared to Linear Regression (0.2630) and Decision Tree (0.3218). Obviously 0.3218 to 0.3310 is not a significant increase, but factoring in that all of Random Forest's metrics were an improvement; I feel confident in choosing Random Forest as the model to progress forward with.<br>
 
 ## Conclusion/Findings
-
+<table>
+    <tr>
+        <th>CV Metrics</th>
+        <th>Linear Regression</th>
+        <th>Decision Tree</th>
+        <th>Random Forest</th>
+    </tr>
+    <tr>
+        <td>MAE</td>
+        <td>99622.19</td>
+        <td>108954.88</td>
+        <td>107692.97</td>
+    </tr>
+    <tr>
+        <td>MSE</td>
+        <td>22232938627.59</td>
+        <td>27216804263.40</td>
+        <td>25932614948.26</td>
+    </tr>
+    <tr>
+        <td>RMSE</td>
+        <td>149107.14</td>
+        <td>164975.16</td>
+        <td>160991.27</td>
+    </tr>
+    <tr>
+        <td>R2</td>
+        <td>0.4154</td>
+        <td>0.3319</td>
+        <td>0.3310</td>
+    </tr>
+</table>
 ## References
 - [Derelict House Image: Geograph](https://www.geograph.ie/photo/3116632)
 - [Master in Data Science](https://www.mastersindatascience.org/learning/introduction-to-machine-learning-algorithms/decision-tree/#:~:text=A%20decision%20tree%20is%20a,that%20contains%20the%20desired%20categorization)
