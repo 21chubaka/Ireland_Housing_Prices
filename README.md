@@ -388,6 +388,7 @@ Random Forest's CV R-squared score of 0.3310 is the best so far compared to Line
         <td>0.3310</td>
     </tr>
 </table>
+
 ## References
 - [Derelict House Image: Geograph](https://www.geograph.ie/photo/3116632)
 - [Master in Data Science](https://www.mastersindatascience.org/learning/introduction-to-machine-learning-algorithms/decision-tree/#:~:text=A%20decision%20tree%20is%20a,that%20contains%20the%20desired%20categorization)
