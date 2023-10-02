@@ -395,9 +395,14 @@ However, none of these models are performing at an acceptable level for real use
 Some observations:<br>
 - There seems to be still too many upper bound outliers in the data
 - May be beneficial to have a model for properties under a million
-- Some features were useless due to the amount of missing data, making them more complete could help the models
+- Some features were impacted due to the amount of missing data, making them more complete could help the models
 
 ## Future Work
+Finding more robust and complete data, like size of the properties will be a target for future work.<br>
+Also, splitting the data will be an approach for the next version of models.  Some splits could be:
+- Dublin only model (or other larger cities) and rest of Ireland model
+- Under a million property model and over a million model
+- Recession model and non-recession model
 
 ## References
 - [Derelict House Image: Geograph](https://www.geograph.ie/photo/3116632)
