@@ -242,8 +242,13 @@ Used to gauge the ablity of a model to predict on new data.  The dataset is spli
     </tr>
 </table>
 
+#### Training
 Based on the MAE, this model is off by 112,672 euro on average. Considering the majority of properties were less than 200,000 euro this is a large proportion to be off by. The RMSE is even higher due to it punishing higher outliers.<br>
 Given those metrics, the low R-squared score of .2690 makes sense. There is ample room to improve!<br>
+
+#### Test
+
+#### 5-Fold Cross-Validation
 
 ### Decision Tree
 <table>
@@ -279,6 +284,12 @@ Given those metrics, the low R-squared score of .2690 makes sense. There is ampl
     </tr>
 </table>
 
+#### Training
+
+#### Test
+
+#### 5-Fold Cross-Validation
+
 ### Random Forest
 <table>
     <tr>
@@ -312,6 +323,12 @@ Given those metrics, the low R-squared score of .2690 makes sense. There is ampl
         <td>0.3310</td>
     </tr>
 </table>
+
+#### Training
+
+#### Test
+
+#### 5-Fold Cross-Validation
 
 ## Conclusion/Findings
 
