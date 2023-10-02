@@ -1,5 +1,5 @@
 # Ireland_Housing_Prices
-Analysis of Irish Housing Prices
+Supervised Machine Learning Prediction Models for Irish Housing Prices
 
 <figure>
     <img src='./media/derelict_house.jpg'>
