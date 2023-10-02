@@ -40,7 +40,7 @@ Features:<br>
 - Income_Per_Person_euro:              float64
 
 ## Data Cleaning
-Intial data exploration was carried out to better understand the RPPR data and identify any data cleaning that needed to be carried out before
+Initial data exploration was carried out to better understand the RPPR data and identify any data cleaning that needed to be carried out before
 modeling.<br>
 ### Initial Descriptive Statistics on Continuous Features
 <figure>
@@ -85,7 +85,7 @@ The 'Property Size Description' feature had 8,984 rows with NULL values.  This f
 <figure>
     <img src='/media/data_cleaning_plan1.png'>
 </figure>
-The above image layouts out the data issues identified with the RPPR dataset and the handling strategies employed to clean the dataset.
+The above image lays out the data issues identified with the RPPR dataset and the handling strategies employed to clean the dataset.
 For some of the issues it was decided to leave them as is, due to the small impact or the goal of keeping data intact. For example, 
 after researching the lower bound outliers of the property prices, it was found that those prices and properties were normal (non-developer) 
 properties that an individual would purchase.<br>
@@ -134,7 +134,7 @@ Some observations from the matrix:
 
 #### Continuous Feature Conclusions
 <b>Year</b>:<br>
-After doing some analysis, I have decided to include Year as a feature to start. There was a correlation to Price (albeit on the lower end), but it did offer information on how price changed over time (down 2011 and up after 2013). The recession may have negatively affect the correlation number.<br>
+After doing some analysis, I have decided to include Year as a feature to start. There was a correlation to Price (albeit on the lower end), but it did offer information on how price changed over time (down 2011 and up after 2013). The recession may have negatively effected the correlation number.<br>
 
 <b>Income Per Person</b>:<br>
 This is an easy feature to choose to include in my models. It was the stronest correlated feature.
@@ -255,9 +255,9 @@ The evaluation metrics were quite similiar accross Train, Test, and Cross. It wa
 ### Decision Tree
 In short, Decision Tree is an approach of supervised machine learning that makes predictions by using a tree of questions whose answers inform its prediction.<br>
 
-For this project I used Decision Tree Regressor also known as a Continuous Variable Decision Tree. I choose this approach due to two factors. First, the target feature I am trying to predict is not a binary outcome; it is a numerical value of price of a property. Secondly, I wished to use multiple features in the model, which a Continuous Variable Decision Tree is used for ([Master in Data Science](https://www.mastersindatascience.org/learning/introduction-to-machine-learning-algorithms/decision-tree/#:~:text=A%20decision%20tree%20is%20a,that%20contains%20the%20desired%20categorization)).<br>
+For this project I used Decision Tree Regressor also known as a Continuous Variable Decision Tree. I chose this approach due to two factors. First, the target feature I am trying to predict is not a binary outcome; it is a numerical value of price of a property. Secondly, I wished to use multiple features in the model, which a Continuous Variable Decision Tree is used for ([Master in Data Science](https://www.mastersindatascience.org/learning/introduction-to-machine-learning-algorithms/decision-tree/#:~:text=A%20decision%20tree%20is%20a,that%20contains%20the%20desired%20categorization)).<br>
 
-Below I have included both a textual snippet and the graphical respresentation of the Decision Tree Regressor tree for my model:<br>
+Below I have included both a textual snippet and the graphical respresentation of the Decision Tree Regressor tree for my model (Feature 1 is income, Feature 0 is year, etc.):<br>
 <figure>
     <img src='/media/text_tree.PNG'>
 </figure>
@@ -306,12 +306,12 @@ Based on the MAE, this model is off by 103,903 euro on average, which is a small
 The test data performed slightly less as well as the training data. There was a drop in the R-squared from 0.3745 to 0.3466.<br>
 
 #### 5-Fold Cross-Validation
-We can see a slight improvement overall from the past Linear Regression model CV R-squared (0.2630). Moving in the right direction, but needs more improvement.<br>
+We can see a slight improvement overall at 0.3218 from the past Linear Regression model CV R-squared (0.2630). Moving in the right direction, but needs more improvement.<br>
 
 ### Random Forest
-Random Forest essentially is a collection of decision trees used to predict a target feature, by aggregating the decision trees’ predictions. It can perform classification and regression. For this assignment I choose Random Forest Regressor due to our target feature being a numerical feature of price, in other words, better suited for regression.<br>
+Random Forest essentially is a collection of decision trees used to predict a target feature, by aggregating the decision trees’ predictions. It can perform classification and regression. For this assignment I chose Random Forest Regressor due to our target feature being a numerical feature of price, in other words, better suited for regression.<br>
 
-I choose an estimator of 1000 (1000 trees), and a random state of 42, which are popular standards. The high amount of estimators may make the workings of the model more of a black box and may take longer to run, but as page load times were not a constraint and the goal was to make a well performing model I choose to go with those settings.<br>
+I chose an estimator of 1000 (1000 trees), and a random state of 42, which are popular standards. The high amount of estimators may make the workings of the model more of a black box and may take longer to run, but as page load times were not a constraint and the goal was to make a well performing model I chose to go with those settings.<br>
 
 <table>
     <tr>
