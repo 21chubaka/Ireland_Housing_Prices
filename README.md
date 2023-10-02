@@ -389,6 +389,16 @@ Random Forest's CV R-squared score of 0.3310 is the best so far compared to Line
     </tr>
 </table>
 
+Looking at the performance of the three models in a glass half full point of view, they all were more accurate than predicting the average price. As the R-squared score is the measure of how much better did the model perform over the average and all the R-squared scores are positive.<br>
+
+However, none of these models are performing at an acceptable level for real use.<br>
+Some observations:<br>
+- There seems to be still too many upper bound outliers in the data
+- May be beneficial to have a model for properties under a million
+- Some features were useless due to the amount of missing data, making them more complete could help the models
+
+## Future Work
+
 ## References
 - [Derelict House Image: Geograph](https://www.geograph.ie/photo/3116632)
 - [Master in Data Science](https://www.mastersindatascience.org/learning/introduction-to-machine-learning-algorithms/decision-tree/#:~:text=A%20decision%20tree%20is%20a,that%20contains%20the%20desired%20categorization)
