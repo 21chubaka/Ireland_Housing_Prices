@@ -309,6 +309,10 @@ The test data performed slightly less as well as the training data. There was a 
 We can see a slight improvement overall from the past Linear Regression model CV R-squared (0.2630). Moving in the right direction, but needs more improvement.<br>
 
 ### Random Forest
+Random Forest essentially is a collection of decision trees used to predict a target feature, by aggregating the decision trees’ predictions. It can perform classification and regression. For this assignment I choose Random Forest Regressor due to our target feature being a numerical feature of price, in other words, better suited for regression.<br>
+
+I choose an estimator of 1000 (1000 trees), and a random state of 42, which are popular standards. The high amount of estimators may make the workings of the model more of a black box and may take longer to run, but as page load times were not a constraint and the goal was to make a well performing model I choose to go with those settings.<br>
+
 <table>
     <tr>
         <th>Metric</th>
@@ -343,12 +347,16 @@ We can see a slight improvement overall from the past Linear Regression model CV
 </table>
 
 #### Training
+Based on the MAE, this model is off by 99,622 euro on average, which is an improvement from the Linear Regression and Decision Tree models based on training data. Again, considering the majority of properties were less than 200,000 euro this is still a large proportion to be off by. The RMSE showed similiarly small improvement over the Linear Regression and Decision Tree models based on training data. The R-squared score of 0.4154 is a marked improvement from the Linear Regression and Decision Tree models, but there is still room to improve.<br>
 
 #### Test
+As expected, the test data did not perform as well as the training data. There was a marked drop in the R-squared from 0.4154 to 0.3319.<br>
 
 #### 5-Fold Cross-Validation
+Random Forest's CV R-squared score of 0.3310 is the best so far compared to Linear Regression (0.2630) and Decision Tree (0.3218). Obviously 0.3218 to 0.3310 is not a significant increase, but factoring in that all of Random Forest's metrics were an improvement; I feel confident in choosing Random Forest as the model to progress forward with.<br>
 
 ## Conclusion/Findings
 
 ## References
 - [Derelict House Image: Geograph](https://www.geograph.ie/photo/3116632)
+- [Master in Data Science](https://www.mastersindatascience.org/learning/introduction-to-machine-learning-algorithms/decision-tree/#:~:text=A%20decision%20tree%20is%20a,that%20contains%20the%20desired%20categorization)
