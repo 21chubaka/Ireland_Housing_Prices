@@ -287,10 +287,13 @@ The evaluation metrics were quite similiar accross Train, Test, and Cross. It wa
 </table>
 
 #### Training
+Based on the MAE, this model is off by 103,903 euro on average, which is a small improvement from the Linear Regression model based on training data. As stated before, considering the majority of properties were less than 200,000 euro this is still a large proportion to be off by. The RMSE showed similiarly small improvement over the Linear Regression model based on training data. The R-squared score of .3745 is an improvement, but there is still room to improve.<br>
 
 #### Test
+The test data performed slightly less as well as the training data. There was a drop in the R-squared from 0.3745 to 0.3466.<br>
 
 #### 5-Fold Cross-Validation
+We can see a slight improvement overall from the past Linear Regression model CV R-squared (0.2630). Moving in the right direction, but needs more improvement.<br>
 
 ### Random Forest
 <table>
