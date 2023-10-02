@@ -3,7 +3,7 @@ Analysis of Irish Housing Prices
 
 <figure>
     <img src='./media/derelict_house.jpg'>
-    <figcaption>Geograph - https://www.geograph.ie/photo/3116632</figcaption>
+    <figcaption>[Geograph](https://www.geograph.ie/photo/3116632)</figcaption>
 </figure>
 
 ## Introduction
