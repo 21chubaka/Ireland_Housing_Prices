@@ -12,6 +12,7 @@ various Machine Learning models to predict property prices in Ireland, then comp
 of the models.<br>
 
 ## Requirements
+Requirements can be installed using [requirements.txt](https://github.com/21chubaka/Ireland_Housing_Prices/blob/main/requirements.txt).
 - Pandas
 - Numpy
 - Matplotlib
