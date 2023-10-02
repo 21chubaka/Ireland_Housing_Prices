@@ -247,8 +247,10 @@ Based on the MAE, this model is off by 112,672 euro on average. Considering the 
 Given those metrics, the low R-squared score of .2690 makes sense. There is ample room to improve!<br>
 
 #### Test
+There is a marginal decrease in R-squared (.2522) and an increase in RMSE (174,540 euro), while running it on the test data.<br>
 
 #### 5-Fold Cross-Validation
+The evaluation metrics were quite similiar accross Train, Test, and Cross. It was expected that Linear Regression would not perform well, given that this is not a linear issue.<br>
 
 ### Decision Tree
 <table>
