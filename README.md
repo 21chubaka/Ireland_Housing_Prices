@@ -3,7 +3,7 @@ Analysis of Irish Housing Prices
 
 <figure>
     <img src='./media/derelict_house.jpg'>
-    <figcaption>[Geograph](https://www.geograph.ie/photo/3116632)</figcaption>
+    <figcaption>Geograph - https://www.geograph.ie/photo/3116632</figcaption>
 </figure>
 
 ## Introduction
@@ -313,4 +313,4 @@ Used to gauge the ablity of a model to predict on new data.  The dataset is spli
 ## Conclusion/Findings
 
 ## References
-- Derelict House Image: Geograph - https://www.geograph.ie/photo/3116632
+- [Derelict House Image: Geograph](https://www.geograph.ie/photo/3116632)
