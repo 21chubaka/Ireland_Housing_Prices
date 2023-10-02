@@ -255,8 +255,7 @@ The evaluation metrics were quite similiar accross Train, Test, and Cross. It wa
 ### Decision Tree
 In short, Decision Tree is an approach of supervised machine learning that makes predictions by using a tree of questions whose answers inform its prediction.<br>
 
-For this project I used Decision Tree Regressor also known as a Continuous Variable Decision Tree. I choose this approach due to two factors. First, the target feature I am trying to predict is not a binary outcome; it is a numerical value of price of a property. Secondly, I wished to use multiple features in the model, which a Continuous Variable Decision Tree is used for.
-Source: https://www.mastersindatascience.org/learning/introduction-to-machine-learning-algorithms/decision-tree/#:~:text=A%20decision%20tree%20is%20a,that%20contains%20the%20desired%20categorization.
+For this project I used Decision Tree Regressor also known as a Continuous Variable Decision Tree. I choose this approach due to two factors. First, the target feature I am trying to predict is not a binary outcome; it is a numerical value of price of a property. Secondly, I wished to use multiple features in the model, which a Continuous Variable Decision Tree is used for ([Master in Data Science](https://www.mastersindatascience.org/learning/introduction-to-machine-learning-algorithms/decision-tree/#:~:text=A%20decision%20tree%20is%20a,that%20contains%20the%20desired%20categorization)).<br>
 
 Below I have included both a textual snippet and the graphical respresentation of the Decision Tree Regressor tree for my model:<br>
 <figure>
